@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hero-project';
+  title = 'NHK';
+  youkoso = "ＮＨＫにようこそ！"
+
+  ngOnInit(){
+
+    console.log("もしもし、うぇえあぼおです")
+  }
 }
